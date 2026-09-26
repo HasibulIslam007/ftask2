@@ -1,0 +1,52 @@
+
+
+
+Prompt-1
+
+I need to implement an LRU Cache for a programming assignment.
+
+Before writing code, analyze and recommend the best implementation approach.
+
+Compare possible methods (such as HashMap + Doubly Linked List, OrderedDict, Array/List, or other approaches) based on:
+- Time complexity
+- Space complexity
+- Meeting O(1) get() and put() requirements
+- Interview/assessment expectations
+- Code readability and explanation difficulty
+
+Recommend the best method for this assignment and explain why.
+
+
+prompt-2
+
+Are there any other methods to implement an LRU Cache besides HashMap + Doubly Linked List? Compare the alternatives briefly and explain their pros, cons, and whether they satisfy the O(1) get() and put() requirement.
+
+prompt-3
+
+Act as a senior software engineer and help me implement an LRU Cache for my programming assignment.
+
+Use the standard approach:
+- HashMap for O(1) key lookup
+- Doubly Linked List for maintaining usage order
+
+Requirements:
+- Implement Cache(capacity), get(key), and put(key, value)
+- get() should return the value if the key exists, otherwise return -1
+- Every successful get() or update should move that item to the most recently used position
+- When the cache exceeds its capacity, remove the least recently used item
+- Both get() and put() operations must have O(1) average time complexity
+
+Also create:
+1. Clean and well-structured source code
+2. Test cases demonstrating:
+   - Adding items
+   - Retrieving items
+   - Updating existing keys
+   - LRU eviction behavior
+3. README documentation explaining:
+   - Why HashMap and Doubly Linked List are used
+   - How the LRU ordering is maintained
+   - Time and space complexity
+   - How to run the project
+
+Keep the implementation simple, readable, and suitable for a GitHub submission.
